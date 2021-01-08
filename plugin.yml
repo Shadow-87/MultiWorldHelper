@@ -1,0 +1,14 @@
+name: MultiWorldHelper
+main: ShadowMiner\MultiWorldHelper\Main
+api: 3.0.0
+version: 0.0.1
+
+
+commands:
+  mwh:
+    description: "MultiWorldHelper Main Command"
+    aliases: ["mwhelp"]
+    permission: mwh.command
+permissions:
+  mwh.command:
+    default: true
